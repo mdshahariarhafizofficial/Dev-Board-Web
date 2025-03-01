@@ -7,4 +7,3 @@ const dateMonthYear = date.slice(3, 15);
 document.getElementById('day').innerText = day+" ,";
 // Set Date Month Year
 document.getElementById('date-month-year').innerText = dateMonthYear;
-
