@@ -1,7 +1,11 @@
 const d = new Date();
 const date = d.toString();
+
 const day = date.slice(0,3);
 const dateMonthYear = date.slice(3, 15);
+
+// Time
+let time = d.toLocaleTimeString();
 
 // Set Day
 document.getElementById('day').innerText = day+" ,";

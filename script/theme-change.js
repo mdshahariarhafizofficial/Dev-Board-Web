@@ -6,7 +6,6 @@ document.getElementById('theme-btn').addEventListener('click', function(){
     document.getElementById('theme-btn').style.transform = `rotate(${deg})`;
 
     // Random Background Change
-    const hexCode = "#"+ Math.floor(Math.random() * 1000)+1;
-    console.log(hexCode);
+    const hexCode = "#"+ Math.floor(Math.random() * 1000);    
     document.getElementById('body').style.background = hexCode;
 });
