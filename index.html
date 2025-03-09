@@ -25,7 +25,8 @@
             <nav class="flex justify-between items-center bg-white px-5 py-4 rounded-xl">
                 <!-- logo -->
                 <div class="logo">
-                    <img src="assets/Group .png" alt="">
+                    <img class="hidden sm:block" src="assets/Group .png" alt="">
+                    <img class="sm:hidden" src="assets/logo.png" alt="">
                 </div>
                 <!-- right -->
                 <div class="header-right flex gap-10 items-center">
@@ -46,12 +47,12 @@
         <div class="container-mid max-w-[1536px] mx-auto">
             <section class="grid grid-cols-12 gap-6">
                 <!-- Left -->
-                <div class="col-span-9 left-div bg-white pb-4 rounded-xl">
+                <div class="col-span-12 sm:col-span-7 lg:col-span-9 left-div bg-white pb-4 rounded-xl">
 
                     <!-- Sec-Top -->
-                    <div class="task-sec-top grid grid-cols-12 gap-6 p-5 border-b-2 border-dashed border-gray-300">
+                    <div class="task-sec-top grid sm:grid-cols-12 gap-6 p-5 border-b-2 border-dashed border-gray-300">
 
-                        <div class="col-span-3 gap-5 flex items-center bg-blue-50 py-8 pl-8 pr-4 rounded-xl">
+                        <div class="sm:col-span-12 lg:col-span-3 order-3 lg:-order-1 gap-5 flex items-center bg-blue-50 py-8 pl-8 pr-4 rounded-xl">
                             <div class="bg-white p-4 rounded-full">
                                 <span><i class="fa-solid fa-check bg-[#3752FD] text-white p-2 text-base rounded-md"></i></span>
                             </div>
@@ -60,12 +61,12 @@
                             </div>
                         </div>
 
-                        <div id="discover-sec" class="col-span-6 gap-6 flex items-center bg-linear-to-r from-[#3752FD] to-[#9BA8F8] px-10 py-3 rounded-xl">
+                        <div id="discover-sec" class="sm:col-span-12 lg:col-span-6 order-1 lg:order-2 gap-6 flex items-center bg-linear-to-r from-[#3752FD] to-[#9BA8F8] px-10 py-3 rounded-xl">
                             <img src="assets/board.png" alt="">
                             <h2 class="text-3xl font-medium text-white">Discover Something <br>New Today!</h2>
                         </div>
 
-                        <div class="col-span-3 gap-5 flex items-center bg-blue-50 py-8 pl-8 pr-4 rounded-xl">
+                        <div class="sm:col-span-12 lg:col-span-3 order-2 lg:-order-none gap-5 flex items-center bg-blue-50 py-8 pl-8 pr-4 rounded-xl">
                             <div class="bg-white p-4 rounded-full">
                                 <img src="assets/calender.png" alt="">
                             </div>
@@ -79,7 +80,7 @@
                     <!-- Sec-body  -->
                     <div class="sec-body p-5">
 
-                        <div class="card-container grid grid-cols-3 gap-8">
+                        <div class="card-container grid sm:grid-cols-1 lg:grid-cols-3 gap-8">
 
                             <!-- Card-1 -->
                             <div class="card p-6 bg-blue-50">
@@ -191,7 +192,7 @@
                 </div>
 
                 <!-- Right -->
-                <div class="col-span-3 right-div bg-white py-4 rounded-xl">
+                <div class="col-span-12 sm:col-span-5 lg:col-span-3 right-div bg-white py-4 rounded-xl">
                     <div class="border-b-2 border-dashed border-gray-300 p-5">
                         <div class="w-44 mx-auto text-center">
                             <div class="flex gap-4 mb-4 ">
